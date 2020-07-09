@@ -32,9 +32,8 @@ public:
 // Driver Code for the problem
 int main()
 {
-    Solution x = Solution();
     vector<int> nums = {3, 1, 2, 10, 1};
-    nums = x.runningSum(nums);
+    nums = Solution().runningSum(nums);
     for (auto it = nums.begin(); it != nums.end(); ++it)
         cout << *it << " ";
     return 0;
